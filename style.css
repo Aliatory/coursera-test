@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	padding-top: 70px;
+}
+.navbar {
+	background-color: #898888; /* Light grey background for the navbar */
+	
+}
+
+h1.text-center {
+	margin-top: 20px; /* Add some margin to the heading */
+}
+
+/* Section for the menu content */
+.menu-section {
+	background-color: #898888; /* Background color for the section */
+	padding: 10px;
+	margin: 10px 0;
+	
+}
+
+.menu-section h2 {
+	margin-bottom: 10px;
+}
+
+.menu-section p {
+	color: #333;
+	font-size: 14px;
+}
+
+/* Full-width dropdown menu for mobile */
+.navbar-collapse {
+	background-color: #898888;
+	width: 100%;
+	
+}
+
+.navbar-collapse ul li a {
+	color: #000;
+}
+
+.navbar-toggle {
+	border: none;
+	background: none;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.menu-section {
+		margin: 0;
+		padding: 20px;
+	}
+
+	.dropdown-menu {
+		width: 100%;
+	}
+}
+h2 {
+	text-align: center;
+}
+.navbar-brand, 
+    .navbar-nav > li > a {
+      color: black !important; /* Цвет текста навбара */
+			text-align: center;
+			
+    }
+		.navbar-nav > li > a:hover {
+      color: black !important; /* Цвет текста при наведении */
+    }
+p{
+	font-size: 16px !important;
+}
+.btn-black {
+	background-color: black;
+	color: white;
+	border-color: black;
+}
+.navbar,
+	.navbar-nav > li > a {
+	border: 2px solid black;
+}
